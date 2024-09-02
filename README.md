@@ -6,15 +6,15 @@ In today's digital era, understanding and segmenting customer banking behavior i
 ## Dataset
 The dataset used in this project includes over 1 million transactions from more than 800,000 customers of a bank in India. The key features of the dataset are:
 
-- *TransactionID*: Unique identifier for each transaction.
-- *CustomerID*: Unique identifier for each customer.
-- *CustomerDOB*: Date of Birth of the customer.
-- *CustGender*: Gender of the customer.
-- *CustLocation*: Location of the customer.
-- *CustAccountBalance*: Account balance at the time of the transaction.
-- *TransactionDate*: Date of the transaction.
-- *TransactionTime*: Time of the transaction.
-- *TransactionAmount (INR)*: Amount of the transaction in Indian Rupees.
+- *TransactionID*:  Unique identifier for each transaction.
+- *CustomerID*:  Unique identifier for each customer.
+- *CustomerDOB*:  Date of Birth of the customer.
+- *CustGender*:  Gender of the customer.
+- *CustLocation*:  Location of the customer.
+- *CustAccountBalance*:  Account balance at the time of the transaction.
+- *TransactionDate*:  Date of the transaction.
+- *TransactionTime*:  Time of the transaction.
+- *TransactionAmount (INR)*:  Amount of the transaction in Indian Rupees.
 
 ## Project Overview
 This project aims to segment bank customers based on their transaction behavior and demographic data, using a variety of clustering techniques. Additionally, it includes anomaly detection to identify unusual transaction patterns that could indicate potential fraud or outliers.
